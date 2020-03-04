@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+    <link rel="stylesheet" href="style.css">
+    <title>The Monday Times</title>
+</head>
+<body>
+<header>
+    <div id="titulo">
+        <h1>The Monday Times</h1>
+    
+        <ul>
+            <li><a href="https://elpais.com/" target="_blank">Noticias</a></li>
+            <li><a href="https://www.marca.com/" target="_blank">Deportes</a></li>
+            <li><a href="http://www.aemet.es/es/eltiempo/prediccion/avisos" target="_blank":>Tiempo</a></li>
+        </ul>
+    </div>
+</header>
+ 
+<img src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg" alt="banner">
+
+    <div id="content">
+        <h2>Noticias</h2>
+        <div class id= "noticia">
+            <h3>“La mayoría de usuarios de Internet son mirones que no hacen nada”</h3>
+            <p>Todo lo que hay en Internet es obra de unos pocos. Unos "pocos" que son decenas de millones de personas, pero que solo representan un porcentaje pequeño del total de usuarios. La web es un océano infinito que cubre toda la Tierra, pero la gente que la alimenta cabría en una isla. <br><br>Menos del 1% de usuarios de Internet crea más del 50% del contenido. "Si tomas cualquier segmento de tiempo determinado, el porcentaje de gente activa en Internet seguro que es menos del 10%", explica el profesor chileno Ricardo Baeza-Yates. "Lo he visto en lugares donde he trabajado. La mayor parte de gente en internet, en las redes sociales sobre todo,está de mirón, sin hacer nada. Ni siquiera hace un like. No genera datos para internet, que no es lo mismo que estar activo. La gente que contribuye, que hace un like, podría ser un 10%, pero quienes hacen un tuit o un post o cuelgan una foto, van a ser menos", añade. <br><br>En distintos trabajos, Baeza-Yates ha encontrado que un 4% de los usuarios activos escribe las reseñas en Amazon ("y eso que un mes después de publicar el artículo Amazon empezó a perseguir las reseñas pagadas, con lo que el número real es menor"), un 2% de usuarios escribe la mitad de tuits en Twitter y que la primera versión de la mitad de entradas de la Wikipedia en inglés fue creada por un 0,04% de sus usuarios registrados, unas 2.000 personas. "Y fue porque les pagaron, porque quién participa en algo que está vacío", dice Baeza-Yates.</p>
+            <button onclick="cambiarColor('#1B1464')">cambiarColor</button>
+        </div>
+        <div class id="noticia-1">
+            <h3>Así se usan datos de webs de salud mental para personalizar anuncios</h3>
+            <p>Una nueva investigación de Privacy International (PI) demuestra que apenas hay límites para qué tipos de datos se recogen para personalizar anuncios en internet. La organización ha analizado 136 webs populares de salud mental de Francia, Alemania y Reino Unido y en la mayoría aparece docenas de cookies de terceros que rastrean el comportamiento online de los usuarios. Los sitios han sido seleccionados por su popularidad en Google al hacer búsquedas de palabras relacionadas con depresión y por ser los más populares en la categoría de salud mental según Similar Web. <br><br> Cuando un usuario llega a una web, un grupo de empresas que se dedica a rastrear internet sabe su perfil, dónde está y qué dispositivo usa. Si hay un espacio de publicidad disponible en esa web, esas empresas enlazarán el perfil del navegador que han creado a partir de datos del historial de búsquedas, edad, género o predicciones de intereses. Ahora sabemos que la salud mental no está al margen de estas prácticas. <br><br> Esos perfiles se subastan a anunciantes interesados en, por ejemplo, mujeres entre 25 y 40 años, que han visitado webs de comida vegana y están buscando un restaurante. La oferta más alta logra aparecer en el anuncio. <br><br> Todo esto ocurre en décimas de segundo. Los anuncios suelen tardar una fracción de segundo más que el resto de la página en cargar. El motivo es esta maravilla tecnológica. El problema es que es una maravilla tecnológica de las más oscuras y malentendidas de internet. Y, a la vez, es el gran andamiaje que sostiene los ingresos de gigantes como Google o Facebook.</p>
+            <button onclick="cambiarColor1('#0652DD')">cambiarColor1</button>
+        </div>
+    </div>
+
+    <div id="pie">
+        <p> © 2019 The Monday Times. All rights reserved.</p>
+    </div>
+
+<script>
+    function cambiarColor() {
+  document.getElementById("noticia").style.backgroundColor = "#4cd137";
+}
+    function cambiarColor1() {
+  document.getElementById("noticia-1").style.backgroundColor = "#0652DD";
+}
+</script>
+ </body>
+</html>
